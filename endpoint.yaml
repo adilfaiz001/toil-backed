@@ -1,3 +1,14 @@
+# 1. Create a Google Cloud project, and if you haven't deployed your own Cloud Functions, deploy a sample backend function. See [Before you begin](https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#before-you-begin).
+# 2. Reserve a Cloud Run hostname for the ESPv2 service. See [Reserving a Cloud Run hostname](https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#reserve_hostname).
+# 3. Create an OpenAPI document that describes your API, and configure the routes to your Cloud Functions. See [Configuring Endpoints](https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#endpoints_configure).
+# 4. Deploy the OpenAPI document to create a managed service. See [Deploying the Endpoints configuration](https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#deploy_configuration).
+# 5. Build a new ESPv2 Docker image with your Endpoints service configuration. See [Building a new ESPv2 image](https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#configure_esp).
+# 6. Deploy the ESPv2 container onto Cloud Run. Then grant ESPv2 the Identity and Access Management (IAM) permission to invoke your service. See [Deploying the ESPv2 container](https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#deploy_esp).
+# 7. Invoke a function. See [Sending a request to the API](https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#send_request).
+# 8. Track activity to your functions. See [Tracking API activity](https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#track_api).
+# 9. Avoid incurring charges to your Google Cloud account. See [Clean up](https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#track_api).
+# https://cloud.google.com/endpoints/docs/openapi/set-up-cloud-functions-espv2#task_list
+
 swagger: '2.0'
 info:
   title: Toil Application
