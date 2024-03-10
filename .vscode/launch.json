@@ -1,12 +1,12 @@
 {
     "configurations": [
       {
-        "name": "Deploy Cloud Function",
+        "name": "platform-handler",
         "type": "cloudcode.cloudfunctions",
         "request": "launch",
-        "functionName": "function-hello-world",
+        "functionName": "platform-cloud-function",
         "gen": "GEN_2",
-        "entryPoint": "helloHttp"
+        "entryPoint": "platform"
       }
     ]
 }
